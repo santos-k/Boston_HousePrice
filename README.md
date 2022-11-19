@@ -5,6 +5,7 @@
 2. [VS Code IDE](https://code.visualstudio.com/download)
 3. [Git CLI](https://git-scm.com/downloads)
 4. [Heroku Account](https://www.heroku.com/)
+5. [Postman](https://www.postman.com/downloads/)
 
 Getting-Started-The-Command-Line
 - Open Terminal: VS Code > Terminal
@@ -65,3 +66,10 @@ Getting-Started-The-Command-Line
     - .gitignore
     - LICENSE
     - README.md
+
+## Deploy on Heroku Server
+ - First create a filename 'procfile'
+    ```
+    web: gunicorn app:app
+    ```
+    
