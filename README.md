@@ -33,10 +33,35 @@ Getting-Started-The-Command-Line
     git config --global user.name "Your Name"
     git config --global user.email "Your github email"
     ```
-## Steps to commit on git
+## 1. Steps to commit on git
 - Let's add any file so we can put into the git 
     ```
     git add requirements.txt #add single file
     git add . #add all files
     git status #check file status
     ```
+
+## 2. Create Stagging (ready to be pushed)
+- In this step all the files are now ready to push over the Git, till here no file will upload to git
+    ```
+    git commit -m "First Commit requiremtns and readme file"
+    ```
+## 3. Push to Git
+- Now final step to push over the Git and the files will reflects on git server
+    ```
+    git push origin main
+    ```
+
+# Create FrontEnd App
+### Folder and files structures
+- BOSTONHOUSEPRICE
+    - venv
+    - app.py
+    - templates
+        - home.html
+    - regression_model.pkl
+    - scaler.pkl
+    - requirements.txt
+    - .gitignore
+    - LICENSE
+    - README.md
